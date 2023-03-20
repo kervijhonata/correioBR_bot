@@ -1,0 +1,13 @@
+{{>_header}}
+{{>_nav}}
+<main>
+    <div class="container">
+        <form action="/send-messages" method="post" id="form-messager">
+            <label for="input-message">Write your message:</label>
+            <input type="text" name="message" id="input-message" placeholder="Write something..">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</main>
+<script src="/js/send-messages.js"></script>
+{{>_footer}}

@@ -1,0 +1,14 @@
+:root {
+    --dark-blue: #312e3b;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
